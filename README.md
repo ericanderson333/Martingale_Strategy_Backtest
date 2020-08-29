@@ -17,6 +17,7 @@ jumps above the average price of stock positions, it will sell all current holdi
  2017-04-12 | 234.03| 3 | 0 | 10489.61 | 234.28 |
  2017-04-13 | 232.51 | 5 | 0 | 10485.05 | 233.29 |
  2017-04-17 | 234.57 | 0 | 9 | 10503.59 | 0.0 |
+ 
  First note: This dataset was recieved from the robin_stocks api, if you use 
  different library to retrieve data, then in the backtesting function you will 
  have to change a couple of the column names. <br />
