@@ -1,2 +1,2 @@
-enterusername
-enterpassword
+username
+password
