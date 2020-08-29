@@ -18,4 +18,3 @@ rh.login(username=username, password=password)
 _data = rh.get_stock_historicals(ticker, interval='day', span='5year')
 df = pd.DataFrame(_data)
 df.to_csv('{}_day_data.csv'.format(ticker))
-
