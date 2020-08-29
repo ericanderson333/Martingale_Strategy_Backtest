@@ -1,14 +1,16 @@
-#Random Walk Theory Stock Strategy (Martingale Strategy)
+# Random Walk Theory Stock Strategy (Martingale Strategy)
 This program is a twist on the Martingale gambling strategy. As the price of a stock
 drops below the previous/current average stock price, it will append +2
 buys from the previous position. This program has a cap at 9 buys which represent
 25 total positions at once. While in positions, once the price of the stock
 jumps above the average price of stock positions, it will sell all current holdings.
-##Packages
+
+## Packages
 * Pandas
 * NumPy
 * robin_stocks api (or yfinance... Read below if so)
-##Example Results
+
+## Example Results
  *date* | *close_price* | *buy* | *sell* | *account_value* | *weighted_avg*
  |------|---------------|-------|--------|-----------------|--------------|
  2017-04-11 | 235.06 | 1 | 0 | 10490.63 | 235.06 |
@@ -21,7 +23,8 @@ jumps above the average price of stock positions, it will sell all current holdi
  Replace 'close_price' column to whatever your close/adjusted close prices are. <br />
  Also, replace the dropped columns to whatever columns you don't need as part of 
  your dataset. 
-###Analysis on Example Results
+ 
+### Analysis on Example Results
 * This series in the dataset is a common occurrence when it comes to profiting
 from this algorithm. Analyzing the data there are multiple occasions of this happening
 * As you can see, the program enters the trade at a price of 235.06.
@@ -33,9 +36,7 @@ the stock nearly $.50 below the initial buy.
 * The buy column represents to how many shares were bought near close. The sell represents how many shares were 
 sold that day near close (all positions)
 
- 
- 
-##Contact
+## Contact
  Phone: (971) 708-4444<br />
  Email: ericsanderson333@gmail.com<br />
  Linkedin: https://www.linkedin.com/in/ericanderson333 <br />
