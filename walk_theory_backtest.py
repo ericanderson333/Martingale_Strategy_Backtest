@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 from get_data import ticker
 
-
 def walk_theory_backtest(test_df):
     #make copy of global csv file
     df = test_df.copy() 
